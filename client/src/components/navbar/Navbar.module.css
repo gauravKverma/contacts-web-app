@@ -1,0 +1,36 @@
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 17px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Courier New", Courier, monospace;
+}
+.link {
+  font-weight: 600;
+}
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.activeLink {
+  color: rgba(231, 134, 69, 0.931);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+@media screen and (max-width: 500px) {
+  .navbar_container {
+    font-size: 12px;
+    gap: 30px;
+    padding: 15px 5px 15px 5px;
+  }
+  .activeLink {
+    font-size: 13px;
+  }
+}

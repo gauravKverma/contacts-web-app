@@ -1,0 +1,17 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem {
+  border: 1px solid rgb(184, 184, 184);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+}
+.listItem:hover {
+  box-shadow: rgba(245, 154, 7, 0.445) 0px 5px 11px 0px;
+}

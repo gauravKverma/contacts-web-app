@@ -1,0 +1,43 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.listItem {
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+}
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+.sendButton {
+  font-size: 15px;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 12px;
+    width: 95%;
+  }
+  .sendButton {
+    font-size: 13px;
+  }
+}
